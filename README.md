@@ -11,9 +11,9 @@ This project demonstrates the end-to-end design and implementation of a **modern
 - **📈 Analytics & Reporting:** SQL-driven dashboards and reports that provide actionable insights.  
 ---
 
-## 🛠️ Tools & Resources (Free to Use!)  
+## 🛠️ Tools & Resources  
 - **Datasets:** Provided as CSV files (ERP + CRM).  
-- **SQL Server Express:** Lightweight server to host your database.  
+- **SQL Server Express:** Lightweight server to host database.  
 - **SSMS (SQL Server Management Studio):** GUI for database management.  
 - **GitHub Repository:** Version control and collaboration.  
 - **DrawIO:** For architecture, flows, and schema diagrams.  
