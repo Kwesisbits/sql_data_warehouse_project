@@ -1,5 +1,11 @@
 /*
-
+=========================================================================
+DDL Script: Create Tables in Silver Shema 
+=========================================================================
+Script Purpose:
+	This script creates tables in the silver schema, dropping them first if tables with
+	matching identitites already exist.
+	Run the this script to create tables in the 'silver' layer
 */
 -- Drops existing table with the identity 
 IF OBJECT_ID ('silver.crm_cust_info', 'U') IS NOT NULL
