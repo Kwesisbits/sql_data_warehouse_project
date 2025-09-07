@@ -1,4 +1,21 @@
 /*
+==================================================================================
+Stored Procedure: Load Silver Layer (Bronze -> Silver Shema)
+==================================================================================
+Script Purpose:
+    This stored procedure loads data into the bronze schema from the Bronze Shema.
+	- It performs thorough data cleansing (ie removing duplicates, data standardization, data enrichment)
+	on raw data from 'bronze' layer.
+    - It truncates the table before loading data to avoid duplicated data from running more than once
+    - It uses 'INSERT INTO' command data to load data from bronze sshmea into silver shema tables 
+
+Parameters: None.
+This stored procedure does not accept any parameters or return any values 
+
+Usage Example:
+  EXEC silver.load_silver 
+  --- implememted after running stored procedure script to load the data;
+==================================================================================
 
 */
 CREATE OR ALTER PROCEDURE silver.load_silver AS
