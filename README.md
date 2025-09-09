@@ -40,7 +40,7 @@ This project demonstrates the end-to-end design and implementation of a **modern
 - Sales trends 💹  
 
 These insights empower stakeholders with data-driven decisions.  
-👉 See `docs/requirements.md` for full details.  
+
 
 ---
 
@@ -52,4 +52,4 @@ data-warehouse-project/
 ├── scripts/               # SQL ETL & transformation scripts
 ├── tests/                 # Test cases & validation files
 ├── README.md              # Project overview
-└── requirements.txt       # Dependencies
+
